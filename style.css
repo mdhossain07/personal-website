@@ -1,14 +1,21 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: "Poppins", sans-serif;
 }
 
 .highlight {
   color: rgba(212, 11, 95, 0.822);
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   font-size: 50px;
+}
+
+h2 {
+  font-size: 35px;
 }
 
 p {
@@ -17,29 +24,39 @@ p {
 
 section {
   height: 500px;
-  padding-bottom: 100px;
+  margin-bottom: 100px;
+}
+
+#left {
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+#left-img {
+  margin-left: 20%;
 }
 
 #design {
-  padding-top: 10%;
+  margin-top: 10%;
 }
 
-.top {
+.header {
   background-image: url("images/header-bg.png");
   background-position: center;
   background-size: cover;
 }
 
-.middle {
+.biography {
   background-image: url("images/biography-bg.png");
   background-position: center;
+  height: 600px;
 }
 
 .half-width {
-  width: 35%;
+  width: 40%;
   float: left;
-  margin-left: 10%;
-  margin-top: 5%;
+  padding-top: 5%;
+  margin-left: 5%;
 }
 
 .button {
@@ -53,41 +70,39 @@ section {
 }
 
 .half-width img {
-  width: 100%;
+  width: 80%;
 }
 
 .latest {
-  margin-left: 15%;
   background-image: url("images/latest-work-bg.png");
   background-position: center;
   background-size: cover;
-  margin-top: 150px;
 }
 
 .lat-head {
-  padding-left: 30%;
-  margin-bottom: 5%;
+  text-align: center;
 }
 
-.img-div {
+.lat-img {
   width: 25%;
   float: left;
-  margin-left: 2%;
+  padding-left: 5%;
 }
 
-.img-div img {
+.lat-img img {
+  margin-top: 50px;
   width: 100%;
 }
 
-.final {
+.client {
   background-image: url("images/footer-bg.png");
   background-position: center;
   background-size: cover;
 }
 
-.fin-head {
+.client-head {
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 
 .single {
@@ -106,14 +121,18 @@ section {
 }
 
 #box {
-  background-color: rgba(212, 11, 95, 0.822);
+  background-image: linear-gradient(
+    60deg,
+    rgb(236, 83, 177),
+    rgb(214, 11, 129)
+  );
   color: white;
   padding: 5px 10px;
   text-align: center;
   margin-left: 30%;
   margin-right: 30%;
   border-radius: 8px;
-  margin-top: 70px;
+  margin-top: 60px;
 }
 
 blockquote {
